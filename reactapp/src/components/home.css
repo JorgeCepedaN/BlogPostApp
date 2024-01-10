@@ -1,0 +1,29 @@
+.blog {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .55);
+}
+.blog-header{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-header-title{
+    display: flex;
+    align-items: center;
+}
+.blog-header-button {
+    padding: 10px 0;
+}
+.button-text{
+    text-decoration: none;
+    color: black;
+}
+.editBlog{
+    //padding: 2px;
+    width: fit-content;
+}
+.blog-like{
+    display: flex;
+}
+.blog-like-button{
+    padding-left: 20px;
+    margin: 10px;
+}

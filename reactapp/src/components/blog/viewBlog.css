@@ -1,0 +1,44 @@
+.blog-details-container {
+    display: flex;
+    height: 100vh;
+}
+
+.blog-details {
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.blog-categories, .blog-summary, .blog-content{
+    display: block;
+}
+.blog-buttons{
+    display: inline-flex;
+    margin-top: 1rem;
+}
+.delete-button {
+    background-color: orangered;
+    margin: 10px;
+}
+.edit-button {
+    background-color: slategray;
+    margin: 10px;
+}
+.delete-button:hover, .edit-button:hover{
+    opacity: 0.8;
+}
+h1 {
+    color: #333;
+    margin: 0;
+}
+p{
+    width: fit-content;
+    height: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-details {
+        width: 100%;
+    }
+}
